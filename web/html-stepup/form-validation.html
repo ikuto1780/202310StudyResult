@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>フォームバリデーション</title>
+  </head>
+
+  <body>
+    <!--HTMLはユーザによって書き換えができるので、文字数制限などは突破される可能性がある。サーバサイドでもデータの整合性チェック処理を入れた方が良い。-->
+    <form action="#" method="POST">
+      <input type="text" required maxlength="5">
+      <input type="submit" value="送信">
+    </form>
+  </body>
+
+</html>
